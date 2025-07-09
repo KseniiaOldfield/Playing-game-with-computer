@@ -1,0 +1,110 @@
+body {
+    background-image: url(game-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000000;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100vh; 
+  }
+#heading {
+    font-size: 70px;
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 200px;
+    background: linear-gradient(to Left, #e5f323, #ce1fae);
+    color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s infinite linear;
+}
+@keyframes animate {
+    from{
+        background-position: 0 0;
+    }
+
+    to{
+        background-position: 100% 100%;
+    }
+}
+#container {
+    margin-left: 200px;
+    margin-right: 130px;
+    background-color: rgba(80, 78, 78, 0.8);
+    border: 1px solid #1fce39;
+    border-radius: 30px;
+    padding: 20px;
+    position: absolute;
+    width: 70%;
+}
+#heading1, #heading2 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 45px;
+    color: #e5f323;
+    margin-left: 150px;
+}
+#guess {
+    padding: 10px;
+    width: 40%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    border: none;
+    margin-left: 200px;
+}
+#btn {
+    background-color: #85EB4E;
+    font-size: 25px;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 400px;
+    cursor: pointer
+}
+#btn:hover {
+    background-color: #7C6FFF;
+    transition-duration: 2s;
+}
+@media all and (max-width: 500px) {
+
+    #heading1, #heading2 {
+        font-size: 20px;
+        margin-left: 1px;
+    }
+    #guess {
+        width: 50%;
+        margin-left: 1px;
+    }
+}
+@media all and (max-width: 820px) {
+
+    #heading {
+        font-size: 45px;
+        margin-left: 10px;
+    }
+    #container {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 50px; 
+    }
+    #heading1, #heading2 {
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    #guess {
+        width: 30%;
+        margin-left: 20px;
+    }
+    #btn {
+        font-size: 20px;
+        padding: 5px;
+        margin-left: 20px;
+    }
+}
