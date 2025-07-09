@@ -18,9 +18,9 @@ body {
     font-size: 70px;
     font-family: 'Orbitron', sans-serif;
     margin-left: 200px;
-    background: linear-gradient(to Left, #e5f323, #ce1fae);
+    background: linear-gradient(to left, #e5f323, #ce1fae);
     color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
     animation: animate 20s infinite linear;
 }
 @keyframes animate {
