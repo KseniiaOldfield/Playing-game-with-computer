@@ -15,7 +15,7 @@ body {
     height: 100vh; 
   }
 #heading {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'Orbitron', sans-serif;
     margin-left: 200px;
     background: linear-gradient(to left, #e5f323, #ce1fae);
@@ -54,7 +54,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     border: none;
-    margin-left: 200px;
 }
 #btn {
     background-color: #85EB4E;
@@ -122,5 +121,8 @@ body {
     #guess {
         width: 90%;
         margin-left: 20px;
+    }
+        #heading1, #heading2 {
+        font-size: 28px;
     }
 }

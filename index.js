@@ -74,7 +74,7 @@ function play() {
         Swal.fire({
             title: 'Victory!',
             width: 600,
-            padding: '8em',
+            padding: '5em',
             color: '#716add',
             background: '#fff url(victory.png)',
             confirmButtonColor:'rgb(11, 181, 59)'
