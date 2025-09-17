@@ -50,7 +50,7 @@ body {
 }
 #guess {
     padding: 10px;
-    width: 40%;
+    width: 100%;
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
     border: none;
@@ -72,6 +72,7 @@ body {
     background-color: #7C6FFF;
     transition-duration: 2s;
 }
+
 @media all and (max-width: 500px) {
 
     #heading1, #heading2 {
@@ -79,7 +80,7 @@ body {
         margin-left: 1px;
     }
     #guess {
-        width: 50%;
+        width: 100%;
         margin-left: 1px;
     }
 }
@@ -91,7 +92,6 @@ body {
     }
     #container {
         margin-left: 10px;
-        margin-right: 10px;
         padding: 50px; 
     }
     #heading1, #heading2 {
@@ -99,12 +99,28 @@ body {
         margin-left: 20px;
     }
     #guess {
-        width: 30%;
+        width: 100%;
         margin-left: 20px;
     }
     #btn {
         font-size: 20px;
         padding: 5px;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width: 1050px) {
+    #guess {
+        width: 90%;
+        margin-left: 20px;
+    }
+    #heading1, #heading2 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width: 1350px) {
+    #guess {
+        width: 90%;
         margin-left: 20px;
     }
 }
